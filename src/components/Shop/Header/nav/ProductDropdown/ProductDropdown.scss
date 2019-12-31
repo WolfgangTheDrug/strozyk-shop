@@ -1,0 +1,22 @@
+ol{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  li {
+    text-decoration: none;
+    color: black;
+    ul {
+      list-style: none;
+      color: black;
+
+      &.dropdown__hidden{
+        display: none;
+
+
+      }
+      &:hover {
+        display: block;
+      }
+    }
+  }
+}

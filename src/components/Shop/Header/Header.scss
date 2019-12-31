@@ -1,0 +1,17 @@
+header {
+  background-color: black;
+  text-align: center;
+
+ a{
+   color: black;
+   text-decoration: none;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+     color: #333;
+     text-decoration: none;
+   }
+ }
+  ol:hover, .nup>p:hover {
+    background-color: #F1F1F1;
+  }
+}

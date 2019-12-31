@@ -1,0 +1,17 @@
+.nup {
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(0.2rem + 2vw);;
+  line-height: 1em;
+
+  .flags {
+    width: calc(30px * 3vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
